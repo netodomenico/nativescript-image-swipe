@@ -180,8 +180,10 @@ class ImageSwipePageAdapter extends androidx.viewpager.widget.PagerAdapter {
         const owner = this.owner.get();
         const imageUrl = owner._getDataItem(position)[owner.imageUrlProperty];
         const params = new androidx.viewpager.widget.ViewPager.LayoutParams();
-        params.height = android.view.ViewGroup.LayoutParams.MATCH_PARENT;
-        params.width = android.view.ViewGroup.LayoutParams.MATCH_PARENT;
+        params.height = 100;
+		params.width = 100;
+		// params.height = android.view.ViewGroup.LayoutParams.MATCH_PARENT;
+		// params.width = android.view.ViewGroup.LayoutParams.MATCH_PARENT;
 
         const imageView = new ZoomImageView(this.owner);
         imageView.setLayoutParams(params);
