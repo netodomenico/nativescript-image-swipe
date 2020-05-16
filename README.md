@@ -25,7 +25,7 @@ A NativeScript widget that will allow you to easily swipe and zoom through a lis
 ## Installation
 Run the following command from the root of your project:
 
-`tns plugin add nativescript-image-swipe`
+`tns plugin add https://github.com/netodomenico/nativescript-image-swipe.git`
 
 This command automatically installs the necessary files, as well as stores nativescript-image-swipe as a dependency in your project's package.json file.
 
